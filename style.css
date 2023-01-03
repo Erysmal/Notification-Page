@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Plus Jakarta Sans', sans-serif;
+}
+body {
+  font-size: 16px;
+  background-color: ;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+@media screen and (min-width:950px){
+  body {
+    background-color:white;
+  }
+}
+main {
+  right:1px;
+  left: 1px;
+  padding:0 1.55rem;
+}
+@media screen and (min-width:950px){
+  main {
+    right: 2.5px;
+    left: 2.5px;
+    padding: 0 2.5rem;
+    background-color: white;
+  }
+}
+.notification-container {
+  display: grid;
+  grid-template-rows: 1fr ;
+  align-self: center;
+  padding: 0 0.6rem;
+  background-color: var(--White);
+}
+@media screen and (min-width:950px) {
+  .notification-container {
+    background-color:1.5rem;
+  }
+}
+/** Notification caption and header **/
+
+  .notification-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 800;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  }
+  @media screen and (min-width:850px){
+    .notification-header {
+      padding:2rem 0;
+    }
+  }
+  .left-notification-caption {
+    font-size: 1.4rem;
+    display: inline;
+  }
+  @media screen and (min-width:950px) {
+    .left-notification-caption {
+      font-size:2.5rem;
+    }
+  }
+.notification-header .num-of-notification{
+  color: var(--White);
+  border-radius: 7px;
+  margin-left: 5px;
+  background-color: var(--Blue);
+  padding: 2px 10px;
+  display: inline-block;
+  font-size: 1.1rem;
+  display: inline;
+}
+@media screen and (min-width:950px) {
+.notification-header  .num-of-notification{
+  border-radius: 7px;
+  padding: 2px 16px;
+  color: var(--White);
+  font-size:1.7rem;
+  margin-left:10px;
+  display: inline;
+}
+}
+
+.notification-header #right-all-notification-box p{
+  font-weight: 500;
+  color:var(--Blue);
+}
+@media screen and (min-width:950px){
+.notification-header #right-all-notification-box{
+  font-size:1.8rem ;
+  display: inline;
+}
+}
+.notification-header #right-all-notification-box p:hover{
+  font-weight: 500;
+  color:var(--Dark-grayish-blue);
+  transition:0.1;
+}
+
+/** end of notification-caption/header**/
+
+.notification-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius:5px;
+  margin: 5px 5px;
+  padding:0.5rem;
+  background-color: var(--red);
+}
+@media screen and (min-width:850px){
+  .notification-box {
+    margin: 5px 10px 7px;
+  }
+}
+.notification-box .left-img-box {
+  flex: 1 1 3rem;
+  padding:7px;
+  margin-right:5px;
+  margin-left:5px;
+}
+.profile-img {
+  width:2.5rem;
+  height: 2.5rem;
+  vertical-align: center;
+}
+@media screen and (min-width:950px){
+  .profile-img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 15px;
+  }
+}
+.notification-box .right-action-box {
+  flex:1 1 100%;
+}
+.notification-box .right-action-box .action-profile {
+ font-family:'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size:0.96rem;
+  margin-right:5px;
+color: var(--Blue);
+display: inline-block;
+}
+@media screen and (min-width:950px) {
+  .notification-box .right-action-box .action-profile{
+    font-size:1.8rem;
+    margin-right: 10px;
+  }
+}
+
+.notification-box .right-action-box .action-profile:hover {
+  color: black;
+}
+.notification-box .right-action-box  .action {
+  color: var(--Dark-grayish-blue);
+  font-size: 0.9rem;
+  margin:0 5px;
+}
+@media screen and (min-width:950px) {
+  .notification-box .right-action-box .action{
+    font-size:1.7rem;
+  }
+}
+.notification-box .right-action-box .action-place{
+  color: var(--Dark-grayish-blue);
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
+@media screen and (min-width:950px){
+  .notification-box .right-action-box .action-place{
+    font-size: 1.7rem;
+  }
+}
+.notification-box .right-action-box .action-notify-red,#action-notify-red{
+  background-color:var(--Red);
+  padding:3.5px;
+  border-radius:50%;
+  display: inline-block;
+  margin-left:5px;
+}
+@media screen and (min-width:950px){
+  .notification-box .right-action-box .action-notify-red{
+    padding:5px;
+  }
+}
+.notification-box .right-action-box .time{
+  color:var(--Dark-grayish-blue) ;
+  margin-top:5px;
+  margin-bottom: 5px;
+  font-size: 500;
+  font-size: 0.87rem;
+}
+@media screen and (min-width:950px){
+  .notification-box .right-action-box .time{
+    font-size:1.7rem;
+  }
+}
+.third .left-img-box{
+  align-items: start;
+}
+.notification-box .right-action-box .action-place{
+  color: var(--Blue);
+}
+.notification-box .right-action-box .action-place:hover{
+  color:var(--Dark-grayish-blue);
+}
+.fourth .right-action-box .private-message{
+  border: 0.7px solid var(--Grayish-blue);
+  margin-right: 0.8rem;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding: 0.9rem;
+  text-align: justify;
+  border-radius: 2px;
+  color: var(--Dark-grayish-blue);
+}
+@media screen and (min-width:950px){
+  .fourth .right-action-box .private-message {
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-top: 13px;
+    margin-left: 10px;
+    font-size: 1.7rem;
+  }
+}
+.fourth .right-action-box .private-message:hover {
+  background-color: var(--Light-grayish-blue-1);
+  border: none;
+}
+.fourth .right-action-box .private-message:active {
+  background-color: var(--Light-grayish-blue-1);
+  border: none;
+}
+.fifth  .commented-img {
+  height: 2.5rem;
+  width: 2.5rem;
+  
+}
+@media screen and (min-width:950px){
+  .fifth .commented-img {
+    height:4rem ;
+    width: 4rem;
+  }
+}
+.fifth .commented-img:hover{
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: var(--Blue);
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
+.text-container p{
+  display: inline;
+}
+.action-profile:hover:active {
+  color: red;
+}
+.hovered {
+  color:black;
+}
+  .attribution a {
+    padding: 0 15px;
+    }
+  .attribution {
+    text-align: center;
+    margin: 10px auto;
+  }
+@media (min-width:950px){
+  .attribution, a {
+    margin-top:2rem ;
+    font-size: 2rem;
+  }
+}
+@media (min-width:950px){
+  .action-container {
+    font-size:2.3rem ;
+  }
+ .notification-box .right-action-box .action-profile{
+    font-stretch: 2.3rem;
+    margin-right: 10px;
+ }
+}
