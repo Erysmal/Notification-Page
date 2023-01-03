@@ -92,16 +92,11 @@ main {
 .notification-header #right-all-notification-box p{
   font-weight: 500;
   color:var(--Blue);
-  display: inline;
   overflow:nowrap;
-  overflow: hidden;
 }
 @media screen and (min-width:950px){
 .notification-header #right-all-notification-box p{
   font-size:1rem ;
-  display: inline;
-  overflow: nowrap;
-  overflow: hidden;
 }
 }
 .notification-header #right-all-notification-box p:hover{
