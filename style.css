@@ -93,12 +93,14 @@ main {
   color:var(--Blue);
   display: inline;
   overflow:nowrap;
+  overflow: hidden;
 }
 @media screen and (min-width:950px){
 .notification-header #right-all-notification-box p{
-  font-size:1.8rem ;
+  font-size:1.6rem ;
   display: inline;
   overflow: nowrap;
+  overflow: hidden;
 }
 }
 .notification-header #right-all-notification-box p:hover{
