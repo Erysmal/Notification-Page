@@ -101,7 +101,7 @@ main {
 }
 @media  (min-width:950px){
 .notification-header #right-all-notification-box p{
-  font-size:2rem ;
+  font-size:1.8rem ;
 }
 }
 .notification-header #right-all-notification-box p:hover{
