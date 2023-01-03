@@ -92,11 +92,11 @@ main {
 .notification-header #right-all-notification-box p{
   font-weight: 500;
   color:var(--Blue);
-  overflow:nowrap;
+  display: inline;
 }
-@media screen and (min-width:950px){
+@media  (min-width:950px){
 .notification-header #right-all-notification-box p{
-  font-size:1rem ;
+  font-size:0.8rem ;
 }
 }
 .notification-header #right-all-notification-box p:hover{
@@ -189,7 +189,7 @@ display: inline-block;
   display: inline-block;
   margin-left:5px;
 }
-@media screen and (min-width:950px){
+@media  (min-width:950px){
   .notification-box .right-action-box .action-notify-red{
     padding:5px;
   }
@@ -201,7 +201,7 @@ display: inline-block;
   font-size: 500;
   font-size: 0.87rem;
 }
-@media screen and (min-width:950px){
+@media  (min-width:950px){
   .notification-box .right-action-box .time{
     font-size:1.7rem;
   }
@@ -225,7 +225,7 @@ display: inline-block;
   border-radius: 2px;
   color: var(--Dark-grayish-blue);
 }
-@media screen and (min-width:950px){
+@media  (min-width:950px){
   .fourth .right-action-box .private-message {
     padding: 1rem;
     margin-right: 1rem;
