@@ -53,9 +53,10 @@ main {
   padding-top:1rem;
   padding-bottom:1rem;
   }
-  @media screen and (min-width:850px){
+  @media screen and (min-width:950px){
     .notification-header {
       padding:2rem 0;
+      margin:1rem 0;
     }
   }
   .left-notification-caption {
